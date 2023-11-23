@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <h1>Indian Cricketers</h1>
+
+        <div id="flex">
+            <a href="#">Full Squad</a>
+            <a href="{% url 'captain' %}">Captain</a>
+            <a href="{% url 'batman' %}">Batsman</a>
+            <a href="{% url 'allrounder' %}">All-Rounder</a>
+            <a href="{% url 'bowler' %}">Bowler</a>
+        </div>
+    </header>
+    <!-- landing page -->
+    <div id="section">
+        <div id="content">
+            <h1>All The Best Team India</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur illum, nobis mollitia facilis quas
+                nam, nostrum expedita tempora, dolorem nihil modi rerum doloribus similique laudantium accusantium
+                earum! Temporibus, reprehenderit consequuntur. Aperiam, consequatur libero numquam dolore vero nobis
+                quos debitis sint excepturi ullam repellat officiis enim.</p>
+            <button>Watch Live Match</button>
+        </div>
+    </div>
+    <!-- section -->
+    <section id="player">
+        <h1>Enjoy The World Cup</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus et quidem eum asperiores repellendus. Dicta
+            sed,
+            ipsa doloribus commodi natus incidunt sunt consequatur.
+            ipsa doloribus commodi natus incidunt sunt consequatur</p>
+        <button> Watch Live Matches</button>
+    </section>
+    <section id="player-11">
+        <h1>World Cup Indian Squad</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illum minus, impedit beatae molestias veniam
+            accusamus eligendi ea totam dicta adipisci voluptates dolore quia nam reiciendis eaque! Ad, necessitatibus
+            iure!</p>
+        <div id="img-11">
+            <img src="{% static 'img/rohit.avif' %}" alt="img not found">
+            <img src="{% static 'img/virat.avif' %}" alt="img not found">
+            <img src="{% static 'img/boom.avif' %}" alt="img not found">
+            <img src="{% static 'img/siraj.jfif' %}" alt="img not found">
+            <img src="{% static 'img/kuldip.avif' %}" alt="img not found">
+            <img src="{% static 'img/gill.avif' %}" alt="img not found">
+            <img src="{% static 'img/sky.avif' %}" alt="img not found">
+            <img src="{% static 'img/iyer.avif' %}" alt="img not found">
+            <img src="{% static 'img/pandya.avif' %}" alt="img not found">
+            <img src="{% static 'img/jadeja.avif' %}" alt="img not found">
+            <img src="{% static 'img/kl.avif' %}" alt="img not found">
+            <img src="{% static 'img/takur.avif' %}" alt="img not found">
+            <img src="{% static 'img/sami.avif' %}" alt="img not found">
+            <img src="{% static 'img/kisan.avif' %}" alt="img not found">
+            <img src="{% static 'img/ravi.jfif' %}" alt="img not found">
+        </div>
+    </section>
+   
+</body>
+
+</html>

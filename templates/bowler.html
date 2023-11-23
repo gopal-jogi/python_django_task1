@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowler</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Indian Cricketers</h1>
+
+        <div id="flex">
+            <a href="{% url 'index' %}">Full Squad</a>
+            <a href="{% url 'captain' %}">Captain</a>
+            <a href="{% url 'batman' %}">Batsman</a>
+            <a href="{% url 'allrounder' %}">All-Rounder</a>
+            <a href="#">Bowler</a>
+        </div>
+    </header>
+    <section id="top-11">
+        <h1>Bowler</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere necessitatibus quam quasi commodi a ducimus
+            quos amet non nemo, nulla quisquam tempore eaque illum incidunt soluta minus molestiae voluptate tenetur.
+        </p>
+
+        <figure id="top">
+            <img src="{% static 'img/boom.avif' %}" alt="">
+            <figcaption>Jaspit Bumrah</figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur temporibus consectetur.</p>
+            <button>Learn More</button>
+        </figure>
+        <figure id="top">
+            <img src="{% static 'img/kuldip.avif' %}" alt="">
+            <figcaption>kuldeep yada</figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur temporibus consectetur.</p>
+            <button>Learn More</button>
+        </figure>
+        <figure id="top">
+            <img src="{% static 'img/sami.avif' %}" alt="">
+            <figcaption>mohammed shami</figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur temporibus consectetur.</p>
+            <button>Learn More</button>
+        </figure>
+        <figure id="top">
+            <img src="{% static 'img/siraj.jfif' %}" alt="">
+            <figcaption>mohammed siraj</figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur temporibus consectetur.</p>
+            <button>Learn More</button>
+        </figure>
+    </section>
+</body>
+</html>
